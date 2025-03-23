@@ -1,6 +1,6 @@
 {
   "name": "ai_image_app",
-  "homepage": "https://Jaimin1915.github.io/AI-image-app/",
+  "homepage": "https://Jaimin1915.github.io/AI-image-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.12",
