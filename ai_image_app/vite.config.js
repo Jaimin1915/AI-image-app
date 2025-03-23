@@ -4,5 +4,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-  base: "AI-image-app",
+  base: "/AI-image-app/",
 })
