@@ -8,7 +8,7 @@ import ImageGrid from "./components/image-grid"
 import Navbar from "./components/Navbar"
 import { generateImageFromModel } from "./utils/image-generator"
 
-const modelOptions = ["FLUX.1-dev", "FLUX.1-schnell", "Stable Diffusion v1.5", "Stabilityai", "Stabilityai 3.0"]
+const modelOptions = ["stable-diffusion-3", "FLUX.1-schnell"]
 
 const imageCountOptions = ["1 Image", "2 Images", "3 Images", "4 Images"]
 
