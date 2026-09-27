@@ -27,6 +27,8 @@ export async function generateImageFromModel({ model, prompt, aspectRatio }) {
 
   const dimensions = getImageDimensions(aspectRatio)
 
+  const seed = Math.floor(Math.random() * 123456789);
+
   const requestData = {
     inputs: prompt,
     parameters: {
@@ -34,6 +36,7 @@ export async function generateImageFromModel({ model, prompt, aspectRatio }) {
       guidance_scale: 7.5,
       width: dimensions.width,
       height: dimensions.height,
+      seed
     },
   }
 
